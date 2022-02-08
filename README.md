@@ -8,6 +8,9 @@ In this course you will learn to build a web application without frameworks or u
 - [Teampagina](https://github.com/cmda-minor-web/web-app-from-scratch-2122/blob/main/course/week-1.md#2-teampagina): Ontwerp en maak met je team een teampagina waarin je de verschillende visitekaartjes toont.
 - [Single Page App](https://github.com/cmda-minor-web/web-app-from-scratch-2122/blob/master/course/week-2.md): Design and build a single page web app based on a User Story.
 
+### Uitgewerkte opdrachten:
+- [Visitekaartje](https://oege.ie.hva.nl/~bergtj/visitekaartje/)
+- [Teampagina](https://tomvandenberg11.github.io/team4-wafs-2022/)
 ---
 
 ## Program
