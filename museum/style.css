@@ -11,7 +11,7 @@ body {
 header {
     height: 60px;
     width: 100%;
-    background-color: rgba(211, 211, 211, .1);
+    background-color: rgba(211, 211, 211, .6);
     /*box-shadow: 0 0 19px -10px #000000;*/
     position: fixed;
     z-index: 2;
@@ -54,12 +54,22 @@ button img {
     height: 100%;
 }
 
+main {
+    margin-bottom: 150px;
+}
 
 .container {
     width: 100%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(50vw, 1fr));
+}
+
+.empty {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .container section {
@@ -81,9 +91,32 @@ main section div {
     left: 50px;
     background-color: rgba(33, 33, 33, .6);
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 2px;
     color: #fff;
     margin-right: 50px;
+}
+
+.displayNone {
+    display: none;
+}
+
+.loadMore {
+    width: auto;
+    padding: 10px;
+    border: none;
+    background-color: rgba(211, 211, 211, .6);
+    height: auto;
+    transition: .3s;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 50px auto;
+    font-size: 20px;
+}
+
+.loadMore:hover {
+    cursor: pointer;
+    padding: 15px;
 }
 
 @media screen and (max-width: 900px) {

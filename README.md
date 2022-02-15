@@ -19,6 +19,15 @@ Als dit stukje code gerunt wordt in de terminal wordt de repository lokaal geclo
 Ga eerst naar de folder waarin je wilt dat het project gecloned wordt. Je kan in de terminal navigeren met `cd` met daar achter de map waar je heen wilt.
 
 Hierna kan het bestand gewoon geopend worden in de browser door dubbel te klikken op de `index.html`.
+
+## To do
+- Empty results after search ✅
+- Dynamic search ✅
+- Load more images button  ✅
+- Error states
+- Loading images state ✅
+- Modal screen onclick images
+
 ## Rubrics 🅰️
 
 ![Rubrics](images/rubrics.png)
