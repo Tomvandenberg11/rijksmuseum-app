@@ -1,56 +1,32 @@
-# Web App From Scratch @cmda-minor-web 2021 - 2022
+# Web apps from scratch
+Welkom bij mijn project van [Web apps from scratch](https://github.com/cmda-minor-web/web-app-from-scratch-2122 "Google's Homepage"). 
 
-In this course you will learn to build a web application without frameworks or unnecessary libraries, but with vanilla HTML, CSS & JavaScript as much as possible. The end result is a modular, single page web app (SPA). Data will be retrieved from an external API, manipulated and finally shown in the UI of the App. You will learn to apply interface principles when building and testing the interface. With the gained knowledge you will be able to build interactive prototypes, based on a user story and real data. Also you will gain a better understanding of how API's, frameworks and libraries work.
+De website is [hier](https://github.com/cmda-minor-web/web-app-from-scratch-2122 "Google's Homepage") te zien.
 
-## Assignment
+FOTO
 
-- [Visitekaartje](https://github.com/cmda-minor-web/web-app-from-scratch-2122/blob/main/course/week-1.md#1-visitekaartje): Ontwerp en maak met HTML, CSS en JS een visitekaartje.
-- [Teampagina](https://github.com/cmda-minor-web/web-app-from-scratch-2122/blob/main/course/week-1.md#2-teampagina): Ontwerp en maak met je team een teampagina waarin je de verschillende visitekaartjes toont.
-- [Single Page App](https://github.com/cmda-minor-web/web-app-from-scratch-2122/blob/master/course/week-2.md): Design and build a single page web app based on a User Story.
+### User story
+> As an art lover, I want to be able to search and view art from the Rijksmuseum at home, so that I can still enjoy art during a lockdown
 
----
 
-## Program
+### Installatie ⚙️
 
-| Planning | Maandag | Dinsdag | Vrijdag  |
-|---|---|---|---|
-| [Week 1 - Hellooo 🤸](https://github.com/cmda-minor-web/web-app-from-scratch-2122/blob/master/course/week-1.md) | Introduction + visitekaartje | Teampagina | Teambespreking |
-| [Week 2 - Hello API 🐒](https://github.com/cmda-minor-web/web-app-from-scratch-2122/blob/master/course/week-2.md) | College + briefing opdracht | College + Work | Feedbackgesprekken |
-| Voorjaarsvakantie |  |  |  |
-| [Week 3 - Refactor 🛠](https://github.com/cmda-minor-web/web-app-from-scratch-2122/blob/master/course/week-3.md)  | College + work  | College + work | Feedbackgesprekken  |
-| [Week 4 - Wrapping up 🎁](https://github.com/cmda-minor-web/web-app-from-scratch-2122/blob/master/course/week-4.md)  | College + work  | work | Beoordelingsgesprekken  |
+Om de app lokaal te laten draaien moet het project eerst lokaal worden gecloned.
+Als dit stukje code gerunt wordt in de terminal wordt de repository lokaal gecloned:
 
-## Best Practices
+`gh repo clone tomvandenberg11/rijksmuseum-app`
 
-All work during this course will be tested against our [Best Practices for JavaScript](https://github.com/cmda-minor-web/best-practices/blob/master/javascript.md).
+Ga eerst naar de folder waarin je wilt dat het project gecloned wordt. Je kan in de terminal navigeren met `cd` met daar achter de map waar je heen wilt.
 
-## Rubric
+Hierna kan het bestand gewoon geopend worden in de browser door dubbel te klikken op de `index.html`.
+## Rubrics 🅰️
 
-Your efforts will be graded using a single point rubric (see below). You will have to pass the criterion (centre column) to pass the course. During the test you will be consulted and will be given feedback on things we think deficient and things we think are an improvement on the criterion.
+![Rubrics](images/rubrics.png)
 
-| Deficiency | Criterion | Improvement |
-|:--|:--|:--|
-|  | *User Interface* - you design, build and test the user interface by applying interface design principles |  |
-|  | *Code structure* - you write modular, consistent and efficient HTML, CSS and JavaScript code by applying structure and best practices. You manage state for the application and the UI |  |
-|  | *Data management* - you understand how you can work with an external API using asynchronous code. You can retrieve data, manipulate and dynamically convert it to structured html |  |
-|  | *Project* - your app is working and published on GitHub Pages. Your project is thoroughly documented in the `README.md` file in your repository.  |  |
+## Licence 👨🏻‍⚖️
 
-<!-- Add a link to your live demo in Github Pages 🌐-->
+Dit project is voorzien van een MIT licence. Zie de pagina LICENCE voor meer informatie.
 
-<!-- ☝️ replace this description with a description of your own work -->
+## Credits 📣
 
-<!-- replace the code in the /docs folder with your own, so you can showcase your work with GitHub Pages 🌍 -->
-
-<!-- Add a nice poster image here at the end of the week, showing off your shiny frontend 📸 -->
-
-<!-- Maybe a table of contents here? 📚 -->
-
-<!-- How about a section that describes how to install this project? 🤓 -->
-
-<!-- ...but how does one use this project? What are its features 🤔 -->
-
-<!-- What external data source is featured in your project and what are its properties 🌠 -->
-
-<!-- Maybe a checklist of done stuff and stuff still on your wishlist? ✅ -->
-
-<!-- How about a license here? 📜 (or is it a licence?) 🤷 -->
+Ik wil graag als eerste de docenten bedanken voor al hun inzet, uitleg en lesstof. Ten tweede wil ik mijn supportgroepje bedanken voor de mentale en functionele support. Ten derde wil ik Stackoverflow bedanken voor al hun antwoorden op mijn vragen.
