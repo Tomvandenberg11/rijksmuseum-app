@@ -8,6 +8,13 @@ FOTO
 ### User story
 > As an art lover, I want to be able to search and view art from the Rijksmuseum at home, so that I can still enjoy art during a lockdown
 
+<<<<<<< HEAD
+=======
+### Uitgewerkte opdrachten:
+- [Visitekaartje](https://oege.ie.hva.nl/~bergtj/visitekaartje/)
+- [Teampagina](https://tomvandenberg11.github.io/team4-wafs-2022/)
+---
+>>>>>>> origin/main
 
 ### Installatie ⚙️
 
