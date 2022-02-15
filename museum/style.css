@@ -126,4 +126,8 @@ main section div {
     .container section {
         width: 100vw;
     }
+    main section div {
+        left: 15px;
+        margin-right: 15px;
+    }
 }
