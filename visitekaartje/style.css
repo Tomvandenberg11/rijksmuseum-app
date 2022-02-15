@@ -90,23 +90,44 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    border: 1px solid darkgray;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    border-bottom: 3px solid black;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    padding-bottom: 5px;
 }
 .skills li:first-child {
     background-color: indianred;
-    height: 90px;
+    height: 110px;
+    position: relative;
+}
+
+.skills li:first-child:after {
+    content: 'HTML';
+    position: absolute;
+    bottom: -30px;
 }
 
 .skills li:nth-of-type(2) {
     background-color: lightgreen;
-    height: 90px;
+    height: 110px;
+    position: relative;
 }
 
+.skills li:nth-of-type(2):after {
+    content: 'CSS';
+    position: absolute;
+    bottom: -30px;
+}
 .skills li:last-child {
     background-color: cornflowerblue;
-    height: 70px;
+    height: 60px;
+    position: relative;
+}
+
+.skills li:last-child:after {
+    content: 'Javascript';
+    position: absolute;
+    bottom: -30px;
 }
 
 .socials {
