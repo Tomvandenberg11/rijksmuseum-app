@@ -1,20 +1,16 @@
 # Web apps from scratch
 Welkom bij mijn project van [Web apps from scratch](https://github.com/cmda-minor-web/web-app-from-scratch-2122 "Google's Homepage"). 
 
-De website is [hier](https://github.com/cmda-minor-web/web-app-from-scratch-2122 "Google's Homepage") te zien.
+### Andere uitgewerkte opdrachten:
+- [Visitekaartje](https://tomvandenberg11.github.io/rijksmuseum-app/visitekaartje/)
+- [Teampagina](https://tomvandenberg11.github.io/team4-wafs-2022/)
+
+De website is [hier](https://tomvandenberg11.github.io/rijksmuseum-app/museum/ "Google's Homepage") te zien.
 
 FOTO
 
 ### User story
 > As an art lover, I want to be able to search and view art from the Rijksmuseum at home, so that I can still enjoy art during a lockdown
-
-<<<<<<< HEAD
-=======
-### Uitgewerkte opdrachten:
-- [Visitekaartje](https://oege.ie.hva.nl/~bergtj/visitekaartje/)
-- [Teampagina](https://tomvandenberg11.github.io/team4-wafs-2022/)
----
->>>>>>> origin/main
 
 ### Installatie ⚙️
 
