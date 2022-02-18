@@ -1,6 +1,16 @@
 # Web apps from scratch
 Welkom bij mijn project van [Web apps from scratch](https://github.com/cmda-minor-web/web-app-from-scratch-2122 "Google's Homepage"). 
 
+## Inhoudsopgave
+- [User story](https://github.com/Tomvandenberg11/rijksmuseum-app#user-story) 
+- [Schetsen](https://github.com/Tomvandenberg11/rijksmuseum-app#schetsen) 
+- [Installatie](https://github.com/Tomvandenberg11/rijksmuseum-app#installatie) 
+- [API](https://github.com/Tomvandenberg11/rijksmuseum-app#api) 
+- [To do](https://github.com/Tomvandenberg11/rijksmuseum-app#to-do) 
+- [Rubrics](https://github.com/Tomvandenberg11/rijksmuseum-app#rubrics) 
+- [Licence](https://github.com/Tomvandenberg11/rijksmuseum-app#licence) 
+- [Credits](https://github.com/Tomvandenberg11/rijksmuseum-app#credits) 
+
 ## Andere uitgewerkte opdrachten:
 - [Visitekaartje](https://tomvandenberg11.github.io/rijksmuseum-app/visitekaartje/)
 - [Teampagina](https://tomvandenberg11.github.io/team4-wafs-2022/)
@@ -9,13 +19,13 @@ De website is [hier](https://tomvandenberg11.github.io/rijksmuseum-app/museum/ "
 
 FOTO
 
-## User story
+## User story 
 > As an art lover, I want to be able to search and view art from the Rijksmuseum at home, so that I can still enjoy art during a lockdown
 
 ## Schetsen
 
 
-### Installatie ⚙️
+## Installatie ⚙️
 
 Om de app lokaal te laten draaien moet het project eerst lokaal worden gecloned.
 Als dit stukje code gerunt wordt in de terminal wordt de repository lokaal gecloned:
