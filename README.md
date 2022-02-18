@@ -1,7 +1,7 @@
 # Web apps from scratch
 Welkom bij mijn project van [Web apps from scratch](https://github.com/cmda-minor-web/web-app-from-scratch-2122 "Google's Homepage"). 
 
-### Andere uitgewerkte opdrachten:
+## Andere uitgewerkte opdrachten:
 - [Visitekaartje](https://tomvandenberg11.github.io/rijksmuseum-app/visitekaartje/)
 - [Teampagina](https://tomvandenberg11.github.io/team4-wafs-2022/)
 
@@ -9,8 +9,11 @@ De website is [hier](https://tomvandenberg11.github.io/rijksmuseum-app/museum/ "
 
 FOTO
 
-### User story
+## User story
 > As an art lover, I want to be able to search and view art from the Rijksmuseum at home, so that I can still enjoy art during a lockdown
+
+## Schetsen
+
 
 ### Installatie ⚙️
 
@@ -22,6 +25,10 @@ Als dit stukje code gerunt wordt in de terminal wordt de repository lokaal geclo
 Ga eerst naar de folder waarin je wilt dat het project gecloned wordt. Je kan in de terminal navigeren met `cd` met daar achter de map waar je heen wilt.
 
 Hierna kan het bestand gewoon geopend worden in de browser door dubbel te klikken op de `index.html`.
+
+## API
+Voor dit project heb ik de API van het Rijksmuseum gebruikt. De API is vrij te gebruiken en bevat zo goed als alle
+schilderijen in het Rijksmuseum. Meer informatie over deze API vind je [hier](https://data.rijksmuseum.nl/object-metadata/api/).
 
 ## To do
 - Empty results after search ✅

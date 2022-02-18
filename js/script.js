@@ -6,7 +6,7 @@ const moreButton = document.querySelector(".loadMore")
 let results = 6
 
 const artists = [
-  'Rembrandt', 'Vermeer', 'Hals', 'Cuyp', 'Asselijn', 'Steen'
+  'Rembrandt', 'Vermeer', 'Hals', 'Cuyp', 'Asselijn', 'Steen', 'Van Gogh'
 ]
 
 const getAndRenderData = () => {
@@ -44,7 +44,13 @@ const getAndRenderData = () => {
                 <h3>${art.title}</h3>
                 <p>${art.principalOrFirstMaker}</p>
               </div>
-            </section>`)
+            </section>
+<!--            <div class="modal-background">-->
+<!--              <div class="modal">-->
+<!--              -->
+<!--              </div>-->
+<!--            </div>            -->
+`)
       })
     }).catch(error => container.insertAdjacentHTML('afterbegin', error))
 }
