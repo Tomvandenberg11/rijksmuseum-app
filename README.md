@@ -3,7 +3,7 @@ Welkom bij mijn project van [Web apps from scratch](https://github.com/cmda-mino
 
 De website is [hier](https://tomvandenberg11.github.io/rijksmuseum-app/ "Google's Homepage") te zien.
 
-FOTO
+![Screenshot](images/screenshot.png)
 
 #### Andere uitgewerkte opdrachten voor dit vak:
 - [Visitekaartje](https://tomvandenberg11.github.io/rijksmuseum-app/visitekaartje/)
