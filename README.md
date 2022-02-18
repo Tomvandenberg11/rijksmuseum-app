@@ -1,5 +1,14 @@
 # Web apps from scratch
-Welkom bij mijn project van [Web apps from scratch](https://github.com/cmda-minor-web/web-app-from-scratch-2122 "Google's Homepage"). 
+Welkom bij mijn project van [Web apps from scratch](https://github.com/cmda-minor-web/web-app-from-scratch-2122 "Google's Homepage"). Bij dit van de Minor 'Webdesign and development' is het de bedoeling dat we een single page app gaan maken. Ik heb ervoor gekozen om hierbij de Rijksmuseum API te gebruiken.
+
+De website is [hier](https://tomvandenberg11.github.io/rijksmuseum-app/ "Google's Homepage") te zien.
+
+FOTO
+
+#### Andere uitgewerkte opdrachten voor dit vak:
+- [Visitekaartje](https://tomvandenberg11.github.io/rijksmuseum-app/visitekaartje/)
+- [Teampagina](https://tomvandenberg11.github.io/team4-wafs-2022/)
+
 
 ## Inhoudsopgave
 - [User story](https://github.com/Tomvandenberg11/rijksmuseum-app#user-story) 
@@ -11,13 +20,6 @@ Welkom bij mijn project van [Web apps from scratch](https://github.com/cmda-mino
 - [Licence](https://github.com/Tomvandenberg11/rijksmuseum-app#licence) 
 - [Credits](https://github.com/Tomvandenberg11/rijksmuseum-app#credits) 
 
-## Andere uitgewerkte opdrachten:
-- [Visitekaartje](https://tomvandenberg11.github.io/rijksmuseum-app/visitekaartje/)
-- [Teampagina](https://tomvandenberg11.github.io/team4-wafs-2022/)
-
-De website is [hier](https://tomvandenberg11.github.io/rijksmuseum-app/museum/ "Google's Homepage") te zien.
-
-FOTO
 
 ## User story 
 > As an art lover, I want to be able to search and view art from the Rijksmuseum at home, so that I can still enjoy art during a lockdown
@@ -41,12 +43,14 @@ Voor dit project heb ik de API van het Rijksmuseum gebruikt. De API is vrij te g
 schilderijen in het Rijksmuseum. Meer informatie over deze API vind je [hier](https://data.rijksmuseum.nl/object-metadata/api/).
 
 ## To do
-- Empty results after search ✅
-- Dynamic search ✅
-- Load more images button  ✅
-- Error states
-- Loading images state ✅
-- Modal screen onclick images
+| To do                          | Done? |  
+|:-------------------------------|:------|
+| Empty results after search     | ✅     |
+| Dynamic search                 | ✅     |
+| Load more images button        | ✅     |
+| Error states                   |       |
+| Loading images state           | ✅     |
+| Modal screen onclick images    |       |
 
 ## Rubrics 🅰️
 
