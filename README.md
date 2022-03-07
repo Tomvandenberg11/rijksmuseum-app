@@ -2,7 +2,7 @@
 
 Welkom bij mijn project van [Web apps from scratch](https://github.com/cmda-minor-web/web-app-from-scratch-2122 "Google's Homepage"). Bij dit van de Minor 'Webdesign and development' is het de bedoeling dat we een single page app gaan maken. Ik heb ervoor gekozen om hierbij de Rijksmuseum API te gebruiken.
 
-De website is [hier](https://tomvandenberg11.github.io/rijksmuseum-app/ "Google's Homepage") te zien.
+De website is [hier](https://tomvandenberg11.github.io/rijksmuseum-app/ "Rijksmuseum app") te zien.
 
 ![Screenshot](images/screenshot.png)
 
@@ -15,6 +15,7 @@ De website is [hier](https://tomvandenberg11.github.io/rijksmuseum-app/ "Google'
 
 - [User Story](https://github.com/Tomvandenberg11/rijksmuseum-app#user-story)
 - [Activity Diagram](https://github.com/Tomvandenberg11/rijksmuseum-app#activity-diagram)
+- [Hoe te gebruiken?](https://github.com/Tomvandenberg11/rijksmuseum-app#hoe-te-gebruiken)
 - [Installatie](https://github.com/Tomvandenberg11/rijksmuseum-app#installatie)
 - [API](https://github.com/Tomvandenberg11/rijksmuseum-app#api)
 - [To do](https://github.com/Tomvandenberg11/rijksmuseum-app#to-do)
@@ -27,6 +28,12 @@ De website is [hier](https://tomvandenberg11.github.io/rijksmuseum-app/ "Google'
 > As an art lover, I want to be able to search and view art from the Rijksmuseum at home, so that I can still enjoy art during a lockdown
 
 ## Activity Diagram
+
+![Activity](images/activity.png)
+
+## Hoe te gebruiken?
+
+De website is gemaakt om de kunst uit het Rijksmuseum te laten zien. De gebruiker kan door middel van de zoekbalk zoeken op schilders of schilderijen. Ook kan de gebruiker meerdere resultaten inladen door op de 'Laad meer' knop te drukken. Als er op een schilderij geklikt wordt ziet de gebruiker het schilderij in de goede afmetingen, met meer informatie. Ook is er een link te vinden die verwijst naar de Rijksmuseum website, waar nóg meer informatie te zien is over het kunstwerk.
 
 ## Installatie ⚙️
 
@@ -46,15 +53,16 @@ schilderijen in het Rijksmuseum. Meer informatie over deze API vind je [hier](ht
 
 ## To do
 
-| To do                         | Done? |
-| :---------------------------- | :---: |
-| Empty results after search    |  ✅   |
-| Dynamic search                |  ✅   |
-| Load more images button       |  ✅   |
-| Error states                  |  ✅   |
-| Loading images state          |  ✅   |
-| Modal screen onclick images   |  ✅   |
-| Implement hashing and routing |  ✅   |
+| To do                           | Done? |
+| :------------------------------ | :---: |
+| Empty results after search      |  ✅   |
+| Dynamic search                  |  ✅   |
+| Load more images button         |  ✅   |
+| Error states                    |  ✅   |
+| Loading images state            |  ✅   |
+| Modal screen onclick images     |  ✅   |
+| Implement hashing and routing   |  ✅   |
+| Nice styling on single art page |       |
 
 ## Rubrics 🅰️
 
