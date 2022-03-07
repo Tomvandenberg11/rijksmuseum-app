@@ -6,7 +6,7 @@ export const render = (data, id) => {
   if (!id) {
     collection(data)
   } else {
-    item(data)
+    item(data, id)
     moreButton.classList.add("displayNone")
   }
 }
@@ -24,7 +24,7 @@ export const collection = (data) => {
     addResults(count)
   })
 
-  data.artObjects.reverse().map((art, index) => {
+  data.artObjects.reverse().map((art) => {
     const img = art.webImage.url.slice(0, -3) + "=s1000"
     moreButton.classList.remove("displayNone")
 
@@ -32,31 +32,40 @@ export const collection = (data) => {
       container.insertAdjacentHTML(
         "afterbegin",
         `
-            <a href="#art/${index}">
-                <section class="openModal" style="background-image: url('${img}')">
-                        <div>
-                            <h3>${art.title}</h3>
-                            <p>${art.principalOrFirstMaker}</p>
-                        </div>
-                </section>
+            <a href="#art/${art.id}">
+                <article style="background-image: url('${img}')">
+                    <div>
+                        <h3>${art.title}</h3>
+                        <p>${art.principalOrFirstMaker}</p>
+                    </div>
+                </article>
             </a>
-            <div class="modal-background closed">
-                <div class="modal">
-                    <h3 style="color: white;">${art.title}</h3>
-                </div>
-            </div>
         `
       )
     }
   })
 }
 
-const item = () => {
-  var tempDiv = document.createElement("div")
-  tempDiv.style.backgroundColor = "red"
-  tempDiv.style.width = "30px"
-  tempDiv.style.height = "100px"
-
+const item = (data, id) => {
   container.innerHTML = ""
-  container.insertAdjacentElement("afterbegin", tempDiv)
+  const section = document.createElement("section")
+  section.classList.add("singleArt")
+
+  const result = data.artObjects.filter((item) => item.id === id)
+  console.log(result)
+
+  const link = result.map((item) => item.links.web)
+
+  const imgObject = result.map((item) => item.webImage)
+  const itemImg = imgObject.map((item) => item.url.slice(0, -3) + "=s1000")
+
+  const itemTitle = result.map((item) => item.longTitle)
+
+  section.innerHTML = ` 
+      <a href="/">Terug</a>
+      <img src="${itemImg}"/>
+      <p>${itemTitle[0]}</p>
+      <a href="${link}" target="_blanc">Bekijk hier meer over dit kunstwerk.</a>
+    `
+  container.insertAdjacentElement("afterbegin", section)
 }
