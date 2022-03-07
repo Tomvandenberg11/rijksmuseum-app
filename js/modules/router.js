@@ -1,19 +1,14 @@
-import "../vendor/routie.min.js"
+import "../vendor/routie.js"
 import { getAndRenderData } from "./getData.js"
-
-getAndRenderData()
-search()
-addResults()
+import { render } from "./render.js"
 
 export const handleRoutes = () => {
   routie({
-    "/": () => {
+    "": () => {
       getAndRenderData()
-      search()
-      addResults()
     },
-    "/id": () => {
-      console.log("hallo")
+    "art/:id": (id) => {
+      getAndRenderData(id)
     },
   })
 }
