@@ -62,7 +62,7 @@ const item = (data, id) => {
   const itemTitle = result.map((item) => item.longTitle)
 
   section.innerHTML = ` 
-      <a href="/">Terug</a>
+      <a href="/rijksmuseum-app/">Terug</a>
       <img src="${itemImg}"/>
       <p>${itemTitle[0]}</p>
       <a href="${link}" target="_blanc">Bekijk hier meer over dit kunstwerk.</a>

@@ -47,14 +47,14 @@ schilderijen in het Rijksmuseum. Meer informatie over deze API vind je [hier](ht
 ## To do
 
 | To do                         | Done? |
-| :---------------------------- | :---- |
-| Empty results after search    | ✅    |
-| Dynamic search                | ✅    |
-| Load more images button       | ✅    |
-| Error states                  | ✅    |
-| Loading images state          | ✅    |
-| Modal screen onclick images   | ✅    |
-| Implement hashing and routing | ✅    |
+| :---------------------------- | :---: |
+| Empty results after search    |  ✅   |
+| Dynamic search                |  ✅   |
+| Load more images button       |  ✅   |
+| Error states                  |  ✅   |
+| Loading images state          |  ✅   |
+| Modal screen onclick images   |  ✅   |
+| Implement hashing and routing |  ✅   |
 
 ## Rubrics 🅰️
 
