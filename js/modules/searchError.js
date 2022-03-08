@@ -1,5 +1,6 @@
 import { input, container, moreButton, artists } from "./variables.js"
 
+// FUNCTION IF NO SEARCH RESULTS
 export const searchError = (data) => {
   let inputValue = input.value
 

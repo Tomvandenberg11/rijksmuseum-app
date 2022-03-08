@@ -6,6 +6,7 @@
 body {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
+  overflow-x: hidden;
 }
 
 /****** HEADER  ******/
@@ -13,9 +14,12 @@ header {
   height: 60px;
   width: 100%;
   background-color: rgba(211, 211, 211, 0.6);
-  /*box-shadow: 0 0 19px -10px #000000;*/
   position: fixed;
   z-index: 2;
+}
+
+.nonFixed {
+  position: relative;
 }
 
 header div {
@@ -27,19 +31,36 @@ header div {
   height: 100%;
 }
 
-header img {
-  width: 150px;
-}
-
 header div {
   display: flex;
   align-items: center;
+}
+
+header div a {
+  display: inline-flex;
+  height: auto;
+  align-items: center;
+  text-decoration: none;
+}
+
+header div a img {
+  height: 30px;
+}
+
+header div a h2 {
+  margin-left: 10px;
+  font-size: 42px;
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: -1px;
 }
 
 input {
   border-radius: 5px;
   padding: 5px;
   border: 1px solid transparent;
+  width: 30vw;
 }
 
 /****** MAIN  ******/
@@ -89,7 +110,7 @@ main article div {
   display: none;
 }
 
-.loadMore {
+button {
   width: auto;
   padding: 10px;
   border: none;
@@ -103,38 +124,40 @@ main article div {
   font-size: 20px;
 }
 
-.loadMore:hover {
+button:hover {
   cursor: pointer;
   padding: 15px;
 }
 
+/****** SINGLE ART PAGE  ******/
 .singleArt {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 80vh;
   width: 100vw;
-  flex-direction: column;
   margin-top: 100px;
+  flex-direction: column;
   margin-bottom: -150px;
   position: relative;
+  padding-bottom: 100px;
 }
 
 .singleArt a {
   color: black;
 }
 
-.singleArt a:first-of-type {
+.singleArt a:first-child {
   position: absolute;
-  top: 0;
+  top: -80px;
   left: 5vw;
   color: black;
 }
 
 .singleArt img {
   display: block;
-  max-width: 90vw;
-  max-height: 70vh;
+  max-width: 80vw;
+  max-height: 60vh;
   width: auto;
   height: auto;
   border: 10px solid #ccc;
@@ -142,6 +165,12 @@ main article div {
   margin-bottom: 20px;
 }
 
+.singleArt h3 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+/****** MEDIAQUERIES  ******/
 @media screen and (max-width: 900px) {
   .container {
     grid-template-columns: repeat(auto-fill, minmax(100vw, 1fr));
@@ -149,8 +178,30 @@ main article div {
   .container article {
     width: 100vw;
   }
+  header div a img {
+    height: 20px;
+  }
+  header div a h2 {
+    font-size: 24px;
+  }
+  header input {
+    font-size: 12px;
+  }
   main article div {
     left: 15px;
     margin-right: 15px;
+  }
+  .singleArt {
+    margin-top: 70px;
+  }
+  .singleArt div {
+    width: 95vw;
+  }
+  .singleArt a:first-child {
+    top: -50px;
+    left: 2.5vw;
+  }
+  .singleArt h3 {
+    font-size: 24px;
   }
 }

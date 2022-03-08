@@ -1,4 +1,4 @@
-import { input, setResult } from "../modules/variables.js"
+import { input, setResult, results } from "../modules/variables.js"
 import { getAndRenderData } from "./getData.js"
 import { collection } from "./render.js"
 
@@ -9,11 +9,12 @@ export const search = () => {
     "https://www.rijksmuseum.nl/api/nl/collection?key=2mU4mudb&q=" +
     searchTerm +
     "&ps=" +
-    finalResult
+    results
   collection(url)
 }
 
-input.addEventListener("keydown", function (e) {
+input.addEventListener("keydown", (e) => {
+  // ONLY SEARCHING IF ENTER IS PRESSED
   if (e.code === "Enter") {
     setResult(6)
     getAndRenderData()

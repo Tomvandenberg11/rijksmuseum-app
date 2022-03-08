@@ -2,6 +2,7 @@ import { addResults } from "./addResults.js"
 import { searchError } from "./searchError.js"
 import { empty, moreButton, container } from "./variables.js"
 
+// CHECKING IF HASH HAS ID
 export const render = (data, id) => {
   if (!id) {
     collection(data)
@@ -11,6 +12,7 @@ export const render = (data, id) => {
   }
 }
 
+// FUNCTION FOR LOADING ALL COLLECTIONS
 export const collection = (data) => {
   empty.classList.add("displayNone")
   moreButton.classList.remove("displayNone")
@@ -46,6 +48,7 @@ export const collection = (data) => {
   })
 }
 
+// FUNCTION FOR LOADING SINGLE ART APP
 const item = (data, id) => {
   container.innerHTML = ""
   const section = document.createElement("section")
@@ -59,13 +62,17 @@ const item = (data, id) => {
   const imgObject = result.map((item) => item.webImage)
   const itemImg = imgObject.map((item) => item.url.slice(0, -3) + "=s1000")
 
-  const itemTitle = result.map((item) => item.longTitle)
+  const itemTitle = result.map((item) => item.title)
+  const itemLongTitle = result.map((item) => item.longTitle)
 
   section.innerHTML = ` 
-      <a href="/rijksmuseum-app/">Terug</a>
-      <img src="${itemImg}"/>
-      <p>${itemTitle[0]}</p>
-      <a href="${link}" target="_blanc">Bekijk hier meer over dit kunstwerk.</a>
+      <a href="../">Terug</a>
+      <div>
+        <h3>${itemTitle}</h3>
+        <img src="${itemImg}"/>
+        <p>${itemLongTitle[0]}</p>
+        <a href="${link}" target="_blanc">Bekijk hier meer over dit kunstwerk.</a>
+      </div>
     `
   container.insertAdjacentElement("afterbegin", section)
 }
