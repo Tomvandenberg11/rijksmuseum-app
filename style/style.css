@@ -58,9 +58,11 @@ header div a h2 {
 
 input {
   border-radius: 5px;
-  padding: 5px;
+  padding: 10px 15px;
+  font-size: 16px;
   border: 1px solid transparent;
   width: 30vw;
+  max-width: 250px;
 }
 
 /****** MAIN  ******/
