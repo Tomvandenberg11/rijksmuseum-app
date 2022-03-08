@@ -55,7 +55,6 @@ const item = (data, id) => {
   section.classList.add("singleArt")
 
   const result = data.artObjects.filter((item) => item.id === id)
-  console.log(result)
 
   const link = result.map((item) => item.links.web)
 
@@ -65,8 +64,10 @@ const item = (data, id) => {
   const itemTitle = result.map((item) => item.title)
   const itemLongTitle = result.map((item) => item.longTitle)
 
+  const linkie = window.location.origin + window.location.pathname
+
   section.innerHTML = ` 
-      <a href="../">Terug</a>
+      <a href="${linkie}">Terug</a>
       <div>
         <h3>${itemTitle}</h3>
         <img src="${itemImg}"/>
